@@ -36,3 +36,6 @@ LasHeR consists of 1224 visible and thermal infrared video pairs with more than 
 For more information about the dataset and to download it, please visit [lasher.md](https://github.com/xuboyue1999/RGBT-Tracking/blob/main/datasets/LasHeR/LasHeR.md)
 
 ![image](datasets/LasHeR//overview.png) 
+
+## Evaluation
+### 🌟GTOT
