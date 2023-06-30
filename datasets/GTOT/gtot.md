@@ -1,6 +1,6 @@
 # Learning Collaborative Sparse Representation for Grayscale-Thermal Tracking
 
-[paper]([https://arxiv.org/pdf/2104.13202.pdf](https://ieeexplore.ieee.org/abstract/document/7577747))
+[paper](https://ieeexplore.ieee.org/abstract/document/7577747)
 
 
 ## Introduction
