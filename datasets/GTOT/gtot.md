@@ -39,5 +39,8 @@ GTOT collected 50 grayscale-thermal video clips under different scenarios and co
 
 ### Download
 
-Download GTOT from [BaiduNetdisk](https://pan.baidu.com/s/1oxBE7f4L_3781COvz30W2Q)  (Password:6j68 )
+Download GTOT from [BaiduNetdisk](https://pan.baidu.com/s/1OgCWLSOVKKnJYejn4nx4Nw )  (Password:8sou )
 
+链接：https://pan.baidu.com/s/1OgCWLSOVKKnJYejn4nx4Nw 
+提取码：8sou 
+--来自百度网盘超级会员V7的分享
