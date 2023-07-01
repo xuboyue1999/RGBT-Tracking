@@ -1,0 +1,50 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+要开始，请键入以下项之一: helpwin、helpdesk 或 demo。
+有关产品信息，请访问 www.mathworks.com。
+ 
+>> >> >> >> >> >> >> 
+algs =
+
+  1×8 cell 数组
+
+  1 至 7 列
+
+    'SGT'    'MDNet+RGBT'    'CN'    'KCF-RGB'    'MACNet'    'ours'    'SCM'
+
+  8 列
+
+    'Struck'
+
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+h1 = 
+
+  Figure (1) - 属性:
+
+      Number: 1
+        Name: ''
+       Color: [0.9400 0.9400 0.9400]
+    Position: [232 246 560 420]
+       Units: 'pixels'
+
+  使用 GET 显示所有属性
+
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+h2 = 
+
+  Figure (2) - 属性:
+
+      Number: 2
+        Name: ''
+       Color: [0.9400 0.9400 0.9400]
+    Position: [232 246 560 420]
+       Units: 'pixels'
+
+  使用 GET 显示所有属性
+
+>> >> >> >> >> >> >> >> >> >> 

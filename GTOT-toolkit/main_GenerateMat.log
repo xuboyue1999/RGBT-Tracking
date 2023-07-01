@@ -1,0 +1,274 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.538062) 64-bit (glnxa64)
+                             February 23, 2017
+
+ 
+要开始，请键入以下项之一: helpwin、helpdesk 或 demo。
+有关产品信息，请访问 www.mathworks.com。
+ 
+>> >> >> >> >> >> >> >> >> >> >> 
+trackers =
+
+  1×8 cell 数组
+
+  1 至 7 列
+
+    'SGT'    'MDNet+RGBT'    'CN'    'KCF-RGB'    'MACNet'    'ours'    'SCM'
+
+  8 列
+
+    'Struck'
+
+>> >> >> 
+seq =
+
+    'BlackCar'
+
+
+seq =
+
+    'BlackSwan1'
+
+
+seq =
+
+    'BlueCar'
+
+
+seq =
+
+    'BusScale'
+
+
+seq =
+
+    'BusScale1'
+
+
+seq =
+
+    'Crossing'
+
+
+seq =
+
+    'Cycling'
+
+
+seq =
+
+    'DarkNig'
+
+
+seq =
+
+    'Exposure2'
+
+
+seq =
+
+    'Exposure4'
+
+
+seq =
+
+    'FastCarNig'
+
+
+seq =
+
+    'FastMotor'
+
+
+seq =
+
+    'FastMotorNig'
+
+
+seq =
+
+    'Football'
+
+
+seq =
+
+    'GarageHover'
+
+
+seq =
+
+    'Gathering'
+
+
+seq =
+
+    'GoTogether'
+
+
+seq =
+
+    'Jogging'
+
+
+seq =
+
+    'LightOcc'
+
+
+seq =
+
+    'Minibus'
+
+
+seq =
+
+    'Minibus1'
+
+
+seq =
+
+    'MinibusNig'
+
+
+seq =
+
+    'MinibusNigOcc'
+
+
+seq =
+
+    'MotorNig'
+
+
+seq =
+
+    'Motorbike'
+
+
+seq =
+
+    'Motorbike1'
+
+
+seq =
+
+    'OccCar-1'
+
+
+seq =
+
+    'OccCar-2'
+
+
+seq =
+
+    'Otcbvs'
+
+
+seq =
+
+    'Otcbvs1'
+
+
+seq =
+
+    'Pool'
+
+
+seq =
+
+    'Quarreling'
+
+
+seq =
+
+    'RainyCar1'
+
+
+seq =
+
+    'RainyCar2'
+
+
+seq =
+
+    'RainyMotor1'
+
+
+seq =
+
+    'RainyMotor2'
+
+
+seq =
+
+    'RainyPeople'
+
+
+seq =
+
+    'Running'
+
+
+seq =
+
+    'Torabi'
+
+
+seq =
+
+    'Torabi1'
+
+
+seq =
+
+    'Tricycle'
+
+
+seq =
+
+    'Walking'
+
+
+seq =
+
+    'WalkingNig'
+
+
+seq =
+
+    'WalkingNig1'
+
+
+seq =
+
+    'WalkingOcc'
+
+
+seq =
+
+    'carNig'
+
+
+seq =
+
+    'crowdNig'
+
+
+seq =
+
+    'fastCar2'
+
+
+seq =
+
+    'occBike'
+
+
+seq =
+
+    'tunnel'
+
+>> 
