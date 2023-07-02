@@ -1,0 +1,24 @@
+function trackers = config_tracker()
+% config trackers to be evaluated
+% note: the evaluation under protocol 1 (i.e., all 1,400 videos) for newly
+% added 13 trackers are not available. Thus, you may need to comment these
+% 13 trackers (ATOM, DiMP, C-RPN, SiamRPN++, DaSiamRPN, D-STRCF, SiamDW, GFSDCF, 
+% SiamMask, GlobalTrack, SPLT, ASRCF, LTMU) when performing evaluation using 
+% all 1,400 videos.
+
+trackers = {
+    %struct('name', 'CAT', 'publish', '1111')...
+
+
+    %对比
+    struct('name', 'APFNet', 'publish', '1111')...
+    struct('name', 'DMCNet', 'publish', '1111')...
+    struct('name', 'mfDiMP', 'publish', '1111')...
+    struct('name','MTNet','publish','1111')...
+    struct('name', 'MANet++', 'publish', '1111')...
+
+
+             };
+   
+
+end
