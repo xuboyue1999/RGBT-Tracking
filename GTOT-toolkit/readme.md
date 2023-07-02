@@ -65,11 +65,13 @@ Ensure that you update the paths to reflect the correct dataset location in each
 **4.You will then obtain the metric curve.**
 
 ### Draw visualization results
-
+![image](visualization.png) 
 **1.Execute the main_drawTrackerResults.mat file. Add the name of the tracker you want to visualize the results for at line 11. Modify the corresponding BBOX color and line style at lines 39 and 40.**
+
+**2.You can find the visualized results in the trackingResultsDisplay folder.**
 ## conparision
 Here are the metrics of existing trackers on the GTOT dataset:
-![image](GTOT-toolkit/result.png) 
+![image](result.png) 
 
 The sources of the trackers are indicated in the following table:
 
