@@ -9,24 +9,32 @@ We have developed a MATLAB-based evaluation toolbox for GTOT, which includes
 
 ## File structrue
 GTOT-toolkit 
+
   ├─BBresults  :contains the txt format tracker results
-  ├─ERRresults  :contains the mat format tracker results. This type of file can be directly read by Matlab. Some trackers only provide results in this format. You can use the toolbox and the text-type(.txt) results to generate results in the Matlab (.mat) format.
-  ├─ERRresults  :contains the mat format tracker results. This type of file can be directly read by Matlab. Some trackers only provide results in this format. You can use the toolbox and the text-type(.txt) results to generate results in the Matlab (.mat) format.
+  
+  ├─ERRresults  :contains the mat format tracker results. This type of file can be directly read by Matlab. Some trackers only provide results in this format. You can use the toolbox and the text-type(.txt) results to generate results in the Matlab (.mat) format
+  
+  ├─sequencesAttr  :contains the attributes of sequences
+
 ## Quick Start
 ### Preparasion
 1. You need Matlab to run the toolkit
 
 2.Prepare your own tracking results and save them in the format "trackerName_sequenceName.txt", for example, ADRNet_BlackCar.txt. Additionally, ensure that you save them in the folder named after your tracker within the "BBresults" directory, for instance, ADRNet.
+
 BBresults  
   ├─ADRNet  
   │────ADRNet_BlackCar.txt  
-  │────......  
+  │──── ......  
   │────ADRNet_tunnel.txt  
-  │
-  |——......
+  ├─......
+  
   ├─**YOURTRACKER** 
+  
   │────YOURTRACKER_BlackCar.txt  
+  
   │────...... 
+  
   │────YOURTRACKER_tunnel.txt  
   │    
 
@@ -36,8 +44,29 @@ for example MaNet++ is saved as (X,Y,W,H) format
 
 ADRNet is saved as (x1,y1,x2,y2,x4,y4,x3,y3) format
 
+
+4.To modify the environment path and replace the GTOT path with your dataset path, make the following changes:
+
+* In main_attrDrawCurve.mat, modify the path at line 10.
+* In calcPlotErr.m, modify the path at line 5.
+* In main_GenerateMat.m, modify the path at line 6.
+* In main_drawTrackersResult.m, modify the paths at lines 12 and 21.
+
+Ensure that you update the paths to reflect the correct dataset location in each file mentioned above.
+
 ### Draw metric curves
-  
+
+**1.To generate results in the .mat format, based on your desired format, choose the corresponding processing method at line 66 of calcPlotErr.m. You can choose between the 4corner format (x1, y1, x2, y2, x4, y4, x3, y3) or the rect format (x, y, w, h).**
+
+**2.Modify the desired name of the tracker you wish to generate at line 13 in main_GenerateMat.m, and then proceed to execute the file. After running, you will find a folder with the same name and .mat result in ERRresult.**
+
+**3.Execute the main_attrDrawCurve.mat file, where you can select the attribute you want to compare at line 11, including OCC LSV	FM	LI	TC	SO	DEF All .Use "all" to represent the entire dataset. Add the desired tracker for comparison at line 15..**
+
+**4.You will then obtain the metric curve.**
+
+### Draw visualization results
+
+**1.Execute the main_drawTrackerResults.mat file. Add the name of the tracker you want to visualize the results for at line 11. Modify the corresponding BBOX color and line style at lines 39 and 40.**
 ## conparision
 Here are the metrics of existing trackers on the GTOT dataset:
 ![image](GTOT-toolkit/result.png) 
