@@ -7,7 +7,7 @@ We have developed a MATLAB-based evaluation toolbox for GTOT, which includes
 * etc
 
 
-## File structrue
+## ✏️ File structrue✏️ 
 GTOT-toolkit 
 
   ├─BBresults  :contains the txt format tracker results
@@ -16,7 +16,7 @@ GTOT-toolkit
   
   ├─sequencesAttr  :contains the attributes of sequences
 
-## Quick Start
+## 🚀Quick Start🚀
 ### Preparasion
 
 1. You need Matlab to run the toolkit
@@ -55,7 +55,7 @@ ADRNet is saved as (x1,y1,x2,y2,x4,y4,x3,y3) format
 
 Ensure that you update the paths to reflect the correct dataset location in each file mentioned above.
 
-### Draw metric curves
+### 📈 Draw metric curves📈 
 
 **1.To generate results in the .mat format, based on your desired format, choose the corresponding processing method at line 66 of calcPlotErr.m. You can choose between the 4corner format (x1, y1, x2, y2, x4, y4, x3, y3) or the rect format (x, y, w, h).**
 
@@ -65,13 +65,13 @@ Ensure that you update the paths to reflect the correct dataset location in each
 
 **4.You will then obtain the metric curve.**
 
-### Draw visualization results
+### 👀Draw visualization results👀
 ![image](visualization.png) 
 
 **1.Execute the main_drawTrackerResults.mat file. Add the name of the tracker you want to visualize the results for at line 11. Modify the corresponding BBOX color and line style at lines 39 and 40.**
 
 **2.You can find the visualized results in the trackingResultsDisplay folder.**
-## conparision
+## 🏆conparision🏆
 Here are the metrics of existing trackers on the GTOT dataset:
 
 ![image](result.png) 
