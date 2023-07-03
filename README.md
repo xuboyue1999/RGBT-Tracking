@@ -92,3 +92,39 @@ Tracker | Paper | year | Source
 🚧building🚧
 
 ### 🌟LasHeR🌟
+The [official repository](https://github.com/BUGPLEASEOUT/LasHeR) for the Lasher dataset provides evaluation tools.
+
+Based on this, we have added some metrics and result files for the latest trackers.
+
+* **methods for calculating PR、SR and NPR metrics, generating metric curves, and comparing with existing trackers**
+* **the original tracking result files for the majority of existing trackers**
+* etc
+
+**For detailed instructions on how to use the toolbox and for more information, please refer to the documentation available at [Lasher-toolkit](https://github.com/xuboyue1999/RGBT-Tracking/blob/main/LasHeR-toolkit/readme.md). It will provide comprehensive guidance on utilizing the toolbox and accessing additional details about its functionality.**
+
+#### 🏆conparision🏆
+Here are the metrics of existing trackers on the GTOT dataset:
+![image](LasHeR_Toolkit/result.png) 
+
+The sources of the trackers are indicated in the following table:
+
+Tracker | Paper | year | Source
+----|----|----|----
+**MTNet**  | [MTNet: Learning Modality-aware Representation with Transformer for RGBT Tracking](https://github.com/xuboyue1999/MTNet-ICME23) | 2023 | ICME
+**APFNet**  |   [Attribute-based progressive fusion network for rgbt tracking](https://ojs.aaai.org/index.php/AAAI/article/view/20187) | 2022 | AAAI
+**DMCNet**  |  [Duality-gated mutual condition network for rgbt tracking](https://ieeexplore.ieee.org/abstract/document/9737634) | 2022 |IEEE TNNLS
+**MacNet**  |  [  Object tracking in RGB-T videos using modal-aware attention network and competitive learning](https://www.mdpi.com/1424-8220/20/2/393) | 2020 |Sensors
+**MANet** |  [Multi-adapter RGBT tracking](https://openaccess.thecvf.com/content_ICCVW_2019/html/VOT/Li_Multi-Adapter_RGBT_Tracking_ICCVW_2019_paper.html) | 2019 |ICCVW
+**MANet++** |  [Object tracking in rgb-t videos using modal-aware attention network and competitive learning](https://www.mdpi.com/1424-8220/20/2/393) | 2020 |Sensors
+**CAT**  |  [ Challenge-aware RGBT tracking](https://link.springer.com/chapter/10.1007/978-3-030-58542-6_14) | 2020 |ECCV
+**DAFNet** |  [Deep adaptive fusion network for high performance rgbt tracking](https://openaccess.thecvf.com/content_ICCVW_2019/html/VISDrone/Gao_Deep_Adaptive_Fusion_Network_for_High_Performance_RGBT_Tracking_ICCVW_2019_paper.html) | 2019 |ICCVW
+**mfdimp** |  [Multi-modal fusion for end-to-end rgb-t tracking](http://openaccess.thecvf.com/content_ICCVW_2019/html/VOT/Zhang_Multi-Modal_Fusion_for_End-to-End_RGB-T_Tracking_ICCVW_2019_paper.html) | 2019 |ICCVW
+**FANet** |  [Quality-aware feature aggregation network for robust rgbt tracking](https://ieeexplore.ieee.org/abstract/document/9035457) | 2021 |IEEE Transactions on Intelligent Vehicles
+**DAPNet** |  [Dense feature aggregation and pruning for rgbt tracking](https://dl.acm.org/doi/abs/10.1145/3343031.3350928) | 2019 |MM
+**SGT++** |  [Rgb-t object tracking: benchmark and baseline](https://www.sciencedirect.com/science/article/abs/pii/S0031320319302808) | 2019 |Pattern Recognization
+**SGT** |  [Weighted sparse representation regularized graph learning for rgbt object tracking](https://dl.acm.org/doi/abs/10.1145/3123266.3123289) | 2017 |MM
+**CMR** |  [Cross modal ranking with soft consistency and noisy labels for robust rgb-t tracking](https://openaccess.thecvf.com/content_ECCV_2018/html/Chenglong_Li_Cross-Modal_Ranking_with_ECCV_2018_paper.html) | 2018 |ECCV
+
+
+
+
