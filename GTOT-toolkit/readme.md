@@ -18,6 +18,7 @@ GTOT-toolkit
 
 ## Quick Start
 ### Preparasion
+
 1. You need Matlab to run the toolkit
 
 2.Prepare your own tracking results and save them in the format "trackerName_sequenceName.txt", for example, ADRNet_BlackCar.txt. Additionally, ensure that you save them in the folder named after your tracker within the "BBresults" directory, for instance, ADRNet.
@@ -66,11 +67,13 @@ Ensure that you update the paths to reflect the correct dataset location in each
 
 ### Draw visualization results
 ![image](visualization.png) 
+
 **1.Execute the main_drawTrackerResults.mat file. Add the name of the tracker you want to visualize the results for at line 11. Modify the corresponding BBOX color and line style at lines 39 and 40.**
 
 **2.You can find the visualized results in the trackingResultsDisplay folder.**
 ## conparision
 Here are the metrics of existing trackers on the GTOT dataset:
+
 ![image](result.png) 
 
 The sources of the trackers are indicated in the following table:
