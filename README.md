@@ -66,7 +66,7 @@ We have developed a MATLAB-based evaluation toolbox for GTOT, which includes
 
 ![image](GTOT-toolkit/toolkit.png) 
 
-#### 🚀conparision🚀
+#### 🏆conparision🏆
 Here are the metrics of existing trackers on the GTOT dataset:
 ![image](GTOT-toolkit/result.png) 
 
@@ -89,6 +89,6 @@ Tracker | Paper | year | Source
 
 ### 🌟RGBT234🌟
 
-building
+🚧building🚧
 
 ### 🌟LasHeR🌟
