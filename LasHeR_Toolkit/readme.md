@@ -76,7 +76,6 @@ Tracker | Paper | year | Source
 **MANet++** |  [Object tracking in rgb-t videos using modal-aware attention network and competitive learning](https://www.mdpi.com/1424-8220/20/2/393) | 2020 |Sensors
 **CAT**  |  [ Challenge-aware RGBT tracking](https://link.springer.com/chapter/10.1007/978-3-030-58542-6_14) | 2020 |ECCV
 **MANet** |  [Multi-adapter RGBT tracking](https://openaccess.thecvf.com/content_ICCVW_2019/html/VOT/Li_Multi-Adapter_RGBT_Tracking_ICCVW_2019_paper.html) | 2019 |ICCVW
-
 **DAFNet** |  [Deep adaptive fusion network for high performance rgbt tracking](https://openaccess.thecvf.com/content_ICCVW_2019/html/VISDrone/Gao_Deep_Adaptive_Fusion_Network_for_High_Performance_RGBT_Tracking_ICCVW_2019_paper.html) | 2019 |ICCVW
 **mfdimp** |  [Multi-modal fusion for end-to-end rgb-t tracking](http://openaccess.thecvf.com/content_ICCVW_2019/html/VOT/Zhang_Multi-Modal_Fusion_for_End-to-End_RGB-T_Tracking_ICCVW_2019_paper.html) | 2019 |ICCVW
 **DAPNet** |  [Dense feature aggregation and pruning for rgbt tracking](https://dl.acm.org/doi/abs/10.1145/3343031.3350928) | 2019 |MM
