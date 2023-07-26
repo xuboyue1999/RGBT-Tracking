@@ -64,8 +64,8 @@ name_seq_all = cell(num_seq, 1);
 %threshold使用的是可以画PR和SR（SR是不准确的）曲线，AUC画的是AUC曲线
 metric_type_set = {'error', 'overlap'};
 eval_type       = 'OPE';
-ranking_type    = 'AUC';                                                  
-%ranking_type    = 'threshold';   % change it to 'AUC' for success plots  
+%ranking_type    = 'AUC';                                                  
+ranking_type    = 'threshold';   % change it to 'AUC' for success plots  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 rank_num        = 48;
 
