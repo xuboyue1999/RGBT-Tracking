@@ -31,8 +31,8 @@ evaluation_dataset_type = 'lashertest';
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % use normalization or not  这个是控制PR和NPR
 % change it or not for NPR
-norm_dst = false; 
-%norm_dst =true; 
+%norm_dst = false; 
+norm_dst =true; 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 trackers   = config_tracker();
