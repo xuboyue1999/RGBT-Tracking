@@ -1,3 +1,6 @@
+🌟New Function🌟
+Now, you can plot the error curve for a single sequence, with different colors representing different trackers. The Y-axis represents tracking error, and the X-axis represents frame count. The plotting method can be seen in draw.py.
+![image](1blackteacher.png) 
 # RGBT-Tracking
 This repository contains the necessary tools for RGBT tracking, including datasets（GTOT, RGBT234, LasHeR）, evaluation tools, visualization tools, and results of existing works.
 
