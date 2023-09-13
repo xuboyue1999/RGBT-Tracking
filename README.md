@@ -112,6 +112,7 @@ The sources of the trackers are indicated in the following table:
 Tracker | Paper | year | Source
 ----|----|----|----
 **MTNet**  | [MTNet: Learning Modality-aware Representation with Transformer for RGBT Tracking](https://github.com/xuboyue1999/MTNet-ICME23) | 2023 | ICME
+**MIRNet**  |  [Mirnet: A robust rgbt tracking jointly with multi-modal interaction and refinement](https://ieeexplore.ieee.org/abstract/document/9860018) | 2022 | ICME
 **APFNet**  |   [Attribute-based progressive fusion network for rgbt tracking](https://ojs.aaai.org/index.php/AAAI/article/view/20187) | 2022 | AAAI
 **DMCNet**  |  [Duality-gated mutual condition network for rgbt tracking](https://ieeexplore.ieee.org/abstract/document/9737634) | 2022 |IEEE TNNLS
 **FANet** |  [Quality-aware feature aggregation network for robust rgbt tracking](https://ieeexplore.ieee.org/abstract/document/9035457) | 2021 |IEEE Transactions on Intelligent Vehicles
